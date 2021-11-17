@@ -1,0 +1,11 @@
+{
+    "name": "Librus+",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.synergia.librus.pl/*"],
+            "js": ["js/jquery-3.6.0.min.js", "content.js"]
+        }
+    ]
+}
