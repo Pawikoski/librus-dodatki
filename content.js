@@ -37,6 +37,12 @@ function callback() {
     rows = document.querySelectorAll("tbody")[5]
     console.log(rows)
 
+
+    let avgBox = document.createElement("span");
+    avgBox.innerHTML = "Średnia ocen: " + avg;
+
+    $("table thead tr td span")[0].after(avgBox);
+
     
     // rows.concat(document.querySelectorAll("tr.line1"));
     console.log(grades);
