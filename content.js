@@ -34,6 +34,8 @@ function callback() {
 
     let avg = Math.round((sum(grades) / grades.length) * 100) / 100
 
+    rows = document.querySelectorAll("tbody")[5]
+    console.log(rows)
 
     
     // rows.concat(document.querySelectorAll("tr.line1"));
